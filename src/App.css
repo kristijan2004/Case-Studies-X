@@ -1,0 +1,331 @@
+.logo img {
+  width: 10%;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+  font-size: 14px;
+}
+.links button {
+  background-color: rgb(94, 90, 245);
+  color: white;
+}
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5vw;
+  position: relative;
+}
+.links .btn {
+  margin-left: 40px;
+}
+.modal-content {
+  background-color: rgb(94, 90, 245);
+}
+.modal-body {
+  background-color: rgb(94, 90, 245);
+  border-radius: 30px;
+  padding: 20px 30px;
+}
+.modal-body h4 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.modal form {
+  display: flex;
+  margin: 20px 0px;
+  padding: 0px 70px;
+}
+.modal form input:first-child {
+  width: 75%;
+  background-color: rgb(71, 7, 211);
+  border-color: rgb(71, 7, 211);
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding-left: 10px;
+  color: white;
+}
+.modal form input:first-child::placeholder {
+  color: white;
+}
+.modal form input:last-child {
+  width: 25%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.email {
+  width: 40%;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+}
+.email::placeholder {
+  font-size: 12px;
+}
+.submit {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: none;
+}
+.banner {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  border-radius: 7px;
+  padding: 15vh 11vh;
+  color: white;
+  background-color: rgb(94, 90, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner h2 {
+  font-weight: bold;
+}
+.banner form {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.banner form input:first-child {
+  background-color: rgb(71, 7, 211);
+  border-color: rgb(71, 7, 211);
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding-left: 10px;
+  color: white;
+  width: 65%;
+}
+.banner form input:first-child::placeholder {
+  color: white;
+}
+.banner form input:last-child {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 35%;
+}
+.banner p {
+  margin-top: 3vh;
+}
+.cards-container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
+  position: relative;
+}
+.cards-container h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.cards-container button {
+  border-radius: 20px;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+}
+.main .card {
+  width: 30%;
+  margin-bottom: 3vh;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left !important;
+  margin-top: 7vh;
+}
+.main1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left !important;
+  margin-top: 7vh;
+}
+.main1 .card {
+  width: 60%;
+  margin: 5px;
+  text-align: left;
+  cursor: pointer;
+}
+.main p:last-of-type {
+  padding: 0;
+  color: gray;
+}
+.detailDiv {
+  padding: 10vh;
+  margin: 2vh 9.5vh;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+.detailDiv .card {
+  width: 85%;
+  margin: 0vh 0vh 2vh 0vh;
+}
+.detailDiv .card-title {
+  display: flex;
+  justify-content: space-between;
+}
+.detailDiv .card-title span {
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 7px;
+}
+.bannerDiv {
+  width: 35%;
+  border-radius: 5px;
+  background-color: white;
+  height: 40vh;
+}
+.toggleDiv {
+  width: 5%;
+  background-color: rgb(239, 239, 239);
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.trueDiv {
+  width: 50%;
+  background-color: rgb(94, 90, 245);
+  border-radius: 100%;
+  padding: 10px 0px;
+}
+.falseDiv {
+  width: 50%;
+  background-color: rgb(94, 90, 245);
+  border-radius: 100%;
+  padding: 10px 0px;
+  margin-left: 25px;
+}
+button:focus,
+button:active,
+button:visited {
+  outline: none;
+  box-shadow: none;
+}
+.dropdown {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .links {
+    width: 70%;
+  }
+  .links a {
+    font-size: 12px;
+  }
+  .banner h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .toggleDiv {
+    width: 9%;
+  }
+  .card img {
+    height: 200px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .modal form input:first-child {
+    width: 65%;
+  }
+  .modal form input:last-child {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner form {
+    font-size: 11px;
+    width: 100%;
+  }
+  .banner form input:first-child {
+    width: 60%;
+  }
+  .banner form input:last-child {
+    width: 40%;
+  }
+  .banner p {
+    text-align: center;
+  }
+  .modal form {
+    font-size: 11px;
+    width: 100%;
+  }
+  .modal form input:first-child {
+    width: 60%;
+  }
+  .modal form input:last-child {
+    width: 40%;
+  }
+  .modal p {
+    text-align: center;
+  }
+  .cards-container h3 {
+    font-size: 20px;
+  }
+  .toggleDiv {
+    width: 16%;
+  }
+  .main .card {
+    width: 100%;
+  }
+  .logo img {
+    width: 20%;
+  }
+  .main1 .card {
+    width: 100%;
+  }
+  .detailDiv {
+    padding: 2vh;
+    margin: 2vh 3.5vh;
+  }
+  .detailDiv .card-title {
+    font-size: 17px;
+  }
+  .detailDiv .card-title span {
+    padding: 2px;
+    font-size: 14px;
+  }
+  .detailDiv p {
+    font-size: 12px;
+  }
+  .toggleBtn {
+    display: block;
+  }
+  .links a {
+    display: none;
+  }
+  .links .btn {
+    margin-left: 10px;
+  }
+  .links {
+    justify-content: flex-end;
+  }
+  .dropdown a {
+    display: block !important;
+  }
+  .dropdown {
+    display: block;
+  }
+}
